@@ -24,7 +24,7 @@ export async function POST(req: Request) {
         // Note: This has to be the same system prompt as the one
         // used in the fine-tuning dataset
         content:
-          "You are a kind and friendly AI assistant for a Product Manager at Golden Software, helping with roadmap prioritization, user research, and metric tracking."
+          "You are an AI assistant for a Product Manager at Golden Software, helping with roadmap prioritization, user research, and metric tracking."
       },
       ...messages
     ]
@@ -35,3 +35,4 @@ export async function POST(req: Request) {
   // Respond with the stream
   return new StreamingTextResponse(stream)
 }
+
