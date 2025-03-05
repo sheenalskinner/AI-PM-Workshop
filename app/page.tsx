@@ -86,14 +86,7 @@ export default function Chat() {
               Hi, I'm your PM Assistant!
             </h1>
             <p className="text-gray-500">
-              I'm part of a series of computational experiments taught by{" "}
-              <a
-                href="https://linkin.bio/yallahalim/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-medium underline underline-offset-4 transition-colors hover:text-black"
-              >
-                Halim Madi
+              Sheena created me as part of a workshop for AI fine-tuning for PMs in Feb 2025.
               </a>. I was built using{" "}
               <a
                 href="https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates"
@@ -183,14 +176,7 @@ export default function Chat() {
             rel="noopener noreferrer"
             className="transition-colors hover:text-black"
           >
-            OpenAI GPT-3.5-turbo, as part of a course taught by
-          </a>{" "}
-          Halim Madi.{" "}
-          <a
-            href="https://linkin.bio/yallahalim/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="transition-colors hover:text-black"
+            OpenAI GPT-3.5-turbo.
           >
             Learn to build your own
           </a>
