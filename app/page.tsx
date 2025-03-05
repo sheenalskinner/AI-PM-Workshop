@@ -14,9 +14,9 @@ import Textarea from "react-textarea-autosize";
 import Image from "next/image";
 
 const examples = [
-  "Example 1",
-  "Example 2",
-  "Example 3",
+  "What are leading indicators of feature adoption?",
+  "How can I identify at-risk users before they churn?",
+  "What are early warning signs that a product update is failing?",
 ];
 
 export default function Chat() {
@@ -83,7 +83,7 @@ export default function Chat() {
               className="h-20 w-20"
             />
             <h1 className="text-lg font-semibold text-black">
-              Hi, I'm a fine tuned LLM.
+              Hi, I'm your PM Assistant!
             </h1>
             <p className="text-gray-500">
               I'm part of a series of computational experiments taught by{" "}
