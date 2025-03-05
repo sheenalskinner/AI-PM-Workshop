@@ -176,11 +176,7 @@ export default function Chat() {
             rel="noopener noreferrer"
             className="transition-colors hover:text-black"
           >
-            OpenAI GPT-3.5-turbo.
-          >
-            Learn to build your own
-          </a>
-          .
+            OpenAI GPT-3.5-turbo.</a>
         </p>
       </div>
     </main>
